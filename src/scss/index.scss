@@ -1,0 +1,34 @@
+body {
+    padding-top: 60px;
+}
+
+.navbar-nav {
+    .nav-link {
+        color: #fff;
+    }
+}
+
+.search-form {
+    margin: 20px 0px;
+}
+
+.blocks-table {
+    &__hash {
+        width: 70%;
+        max-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.blocks-pager {
+    margin: 20px;
+
+    &__next {
+        margin-left: 20px;
+    }
+
+    &__prev {
+        margin-right: 20px;
+    }
+}
